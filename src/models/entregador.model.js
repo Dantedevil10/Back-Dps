@@ -17,8 +17,8 @@ function criarEntregador(entregador) {
       INSERT INTO entregadores (
         id, nome, pontoInicioLat, pontoInicioLng,
         pontoFimLat, pontoFimLng, pontosParada,
-        localizacaoLat, localizacaoLng, status
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        localizacaoLat, localizacaoLng
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
     `,
       [
         id, nome,
